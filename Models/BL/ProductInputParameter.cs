@@ -10,6 +10,8 @@ namespace HappyShopAPI.Models.BL
         public string[] CategoryArray { get; set; }
         public PriceRange[] PriceRangeArray { get; set; }
         public string Sorting { get; set; }
+        public int PageNumber { get; set; }
+        public int MaxRowsInPage { get; set; }
         public class PriceRange
         {
             public int MinPrice { get; set; }
